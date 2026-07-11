@@ -4,7 +4,7 @@ export const APP_URL = 'https://app.posale.ng';
 
 // Optional: WhatsApp sales contact shown in the header/footer CTAs.
 // Format: full international number, digits only. Leave '' to hide.
-export const WHATSAPP_NUMBER = '08039898809';
+export const WHATSAPP_NUMBER = '+2348039898809';
 
 export const PLANS = [
   {

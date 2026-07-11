@@ -19,7 +19,7 @@ const FAQS = [
   },
   {
     q: 'What happens if I stop paying?',
-    a: 'Your shop keeps working and your data stays safe. You drop to the free tier — core selling continues; reports, expenses and extra staff unlock again whenever you resubscribe.',
+    a: 'Your shop keeps working and your data stays safe. You drop to the free tier, where the admin account is the only login — core selling continues under admin; staff accounts, reports and expenses unlock again whenever you resubscribe.',
   },
 ];
 

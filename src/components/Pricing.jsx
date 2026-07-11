@@ -28,7 +28,7 @@ export default function Pricing() {
         <Reveal>
           <div className="trial-banner">
             <b>Free 30-day trial</b>
-            <span>Every new business starts with a month of full access — unlimited staff, all reports, no card needed.</span>
+            <span>Every new business starts with a month of full access — unlimited staff, all reports, no card needed. After 30 days without a plan, your shop continues free on the admin account only.</span>
             <a className="btn btn-green" href={APP_URL}>Start your trial</a>
           </div>
         </Reveal>
@@ -65,7 +65,8 @@ export default function Pricing() {
         <p className="pricing-fine">
           Pay by card, bank transfer or USSD via Paystack. No automatic charges — you renew when you
           choose, and upgrading within 7 days of paying credits what you already paid. When a plan
-          ends, your shop keeps all its data and continues free with core selling features.
+          ends, your shop keeps all its data and continues free with core selling features —
+          admin account only.
         </p>
       </div>
     </section>
