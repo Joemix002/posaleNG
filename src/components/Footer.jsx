@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="ctas">
               <a className="btn btn-green" href={APP_URL}>Start free 30-day trial</a>
               {WHATSAPP_NUMBER && (
-                <a className="btn btn-dark-ghost" href={`https://wa.me/${WHATSAPP_NUMBER}`}>
+                <a className="btn btn-dark-ghost" href={`https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, '')}`}>
                   Chat with us on WhatsApp
                 </a>
               )}
@@ -26,7 +26,7 @@ export default function Footer() {
         <div className="wrap footer-grid">
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
             <Logo dark size={34} />
-            <small>© {new Date().getFullYear()} · Business POS &amp; Inventory · Nigeria</small>
+            <small>© {new Date().getFullYear()} · Powered by Evolve Media Global LTD · </small>
           </div>
           <nav className="foot-links" aria-label="Footer">
             <a href="#features">Features</a>

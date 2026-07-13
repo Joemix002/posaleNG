@@ -14,6 +14,14 @@ const FAQS = [
     a: 'Each staff member gets their own name and 4-digit passcode. You control exactly what they can do — a cashier can sell all day without ever seeing your profit numbers.',
   },
   {
+    q: 'What can each staff role do?',
+    a: 'There are three roles. The Admin (owner) has full access and control, and is the only one who can grant extra privileges or edit business information. A Manager runs inventory and sales — creating and deleting items, removing duplicates, seeing cost prices, viewing full reports, printing expenses, voiding receipts and paying for subscriptions — but cannot edit business information. A Cashier (sales rep) makes sales and views and prints their own receipts; they cannot void receipts unless the owner grants that privilege. Every paid plan includes all three roles — your plan size sets how many of each you can add.',
+  },
+  {
+    q: 'Can I run more than one store?',
+    a: 'Yes. The admin can create multiple stores under one business, each with its own stock and sales. Basic includes 1 store, Standard 2 stores, and Premium up to 10.',
+  },
+  {
     q: 'How do I pay for a plan?',
     a: 'Through Paystack — card, bank transfer or USSD, all in naira. Nothing renews automatically: we remind you 7 days before your plan ends and you renew with one tap. Time you have paid for is never lost.',
   },

@@ -50,6 +50,8 @@ export default function Pricing() {
                   <ul>
                     <li>Unlimited items &amp; sales</li>
                     <li>{plan.staff}</li>
+                    <li>{plan.roles}</li>
+                    <li>{plan.stores}</li>
                     <li>Expense management</li>
                     <li className={plan.reportsLimited ? 'dim' : ''}>{plan.reports}</li>
                   </ul>
