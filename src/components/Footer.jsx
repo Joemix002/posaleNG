@@ -33,6 +33,8 @@ export default function Footer() {
             <a href="#how">How it works</a>
             <a href="#pricing">Pricing</a>
             <a href="#faq">FAQ</a>
+            <a href="#/privacy">Privacy Policy</a>
+            <a href="#/terms">Terms &amp; Conditions</a>
             <a href={APP_URL}>Login</a>
           </nav>
         </div>
