@@ -34,14 +34,51 @@ export default function DeleteAccount() {
         delete — ask your admin to remove your staff account from Employee Management.
       </p>
 
-      <h2>2. What happens immediately</h2>
+      <h2>2. Deleting only some of your data</h2>
+      <p>
+        You do not have to close your account to remove data. Signed in as the business owner,
+        you can do all of this yourself at any time:
+      </p>
+      <ul>
+        <li>
+          <strong>Remove a staff member</strong> — Employee Management &rarr; delete. Their
+          profile, name, email and passcode are removed, and they can no longer sign in.
+          Receipts they rang up keep their name so your audit trail stays intact; tell us if you
+          need that cleared too.
+        </li>
+        <li>
+          <strong>Delete products</strong> — Inventory &rarr; select the item &rarr; delete.
+        </li>
+        <li>
+          <strong>Delete a store</strong> — Settings &rarr; Stores &rarr; delete. A store that
+          already has sales or expense history cannot be deleted, because removing it would
+          break your books.
+        </li>
+        <li>
+          <strong>Turn off Device Protection</strong> — Settings &rarr; Device Protection.
+          Location stops being collected the moment you switch it off.
+        </li>
+      </ul>
+      <p>
+        Location history is deleted automatically after 30 days in every case, whether or not
+        you ask.
+      </p>
+      <p>
+        For anything we have not given you a button for — a particular receipt or expense
+        record, or a staff member asking for their own details to be erased — email{' '}
+        <a href="mailto:support@posale.ng">support@posale.ng</a> from the address on the account
+        and tell us what to remove. We confirm with you before deleting anything, and we action
+        requests within 30 days.
+      </p>
+
+      <h2>3. What happens immediately</h2>
       <ul>
         <li>You and every staff member in your business are signed out on every device.</li>
         <li>Nobody can sign in again, on the app or the web.</li>
         <li>Your subscription stops renewing.</li>
       </ul>
 
-      <h2>3. The 30-day grace period</h2>
+      <h2>4. The 30-day grace period</h2>
       <p>
         Your business records are kept for <strong>30 days</strong> after the request. A point of
         sale holds your entire trading history, so an accidental tap should not destroy it. During
@@ -52,7 +89,7 @@ export default function DeleteAccount() {
         After 30 days the data is erased permanently and cannot be recovered by you or by us.
       </p>
 
-      <h2>4. What gets deleted</h2>
+      <h2>5. What gets deleted</h2>
       <ul>
         <li>Your admin profile and every staff profile in your business, with their passcodes.</li>
         <li>All stores, products and stock levels.</li>
@@ -62,7 +99,7 @@ export default function DeleteAccount() {
         <li>Sign-in history and any pending verification or reset codes.</li>
       </ul>
 
-      <h2>5. What we may keep, and why</h2>
+      <h2>6. What we may keep, and why</h2>
       <ul>
         <li>
           <strong>Payment records held by Paystack.</strong> Our payment processor keeps its own
@@ -79,7 +116,7 @@ export default function DeleteAccount() {
         </li>
       </ul>
 
-      <h2>6. Data on your own device</h2>
+      <h2>7. Data on your own device</h2>
       <p>
         Posale works offline, so some of your data is cached on your phone. Uninstalling the app,
         or clearing its storage from Android&rsquo;s app settings, removes that copy. If you have
@@ -87,7 +124,7 @@ export default function DeleteAccount() {
         deleting the account — once the account is closed they cannot be uploaded.
       </p>
 
-      <h2>7. Need help?</h2>
+      <h2>8. Need help?</h2>
       <p>
         If you cannot access your account to delete it — for example you have lost your passcode —
         email <a href="mailto:support@posale.ng">support@posale.ng</a> from the address on the
