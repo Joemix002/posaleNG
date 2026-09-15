@@ -54,15 +54,7 @@ export default function DeleteAccount() {
           already has sales or expense history cannot be deleted, because removing it would
           break your books.
         </li>
-        <li>
-          <strong>Turn off Device Protection</strong> — Settings &rarr; Device Protection.
-          Location stops being collected the moment you switch it off.
-        </li>
       </ul>
-      <p>
-        Location history is deleted automatically after 30 days in every case, whether or not
-        you ask.
-      </p>
       <p>
         For anything we have not given you a button for — a particular receipt or expense
         record, or a staff member asking for their own details to be erased — email{' '}
@@ -94,7 +86,6 @@ export default function DeleteAccount() {
         <li>Your admin profile and every staff profile in your business, with their passcodes.</li>
         <li>All stores, products and stock levels.</li>
         <li>All sales, receipts, receipt line items and expenses.</li>
-        <li>Registered devices and any Device Protection location history.</li>
         <li>Your subscription record and payment history held by Posale.</li>
         <li>Sign-in history and any pending verification or reset codes.</li>
       </ul>
