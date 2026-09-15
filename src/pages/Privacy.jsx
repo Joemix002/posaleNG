@@ -32,6 +32,15 @@ export default function Privacy() {
           login or USSD details.
         </li>
         <li>
+          <b>Device location (Android app, optional)</b> &mdash; if a business owner switches on Device
+          Protection, the Posale Android app can record the device&rsquo;s location, battery level and
+          charging state so a lost or stolen device can be found. Location is recorded only while the
+          owner has marked that device as <b>lost</b> from the dashboard; while it is being tracked the app
+          shows a permanent notification on the device, so tracking is never hidden from whoever is holding
+          it. At all other times the app reports only battery and connection status &mdash; no location.
+          The feature is off until someone turns it on, and can be turned off at any time in Settings.
+        </li>
+        <li>
           <b>Device and usage data</b> — basic technical information such as device type, browser and
           app activity, used to keep the service secure and reliable. Sales made offline are stored on
           your device until they sync to the cloud.
@@ -55,37 +64,71 @@ export default function Privacy() {
         by the roles the owner assigns (admin, manager, cashier).
       </p>
 
-      <h2>4. How long we keep it</h2>
+      <h2>4. Device location and Device Protection</h2>
+      <p>
+        Device Protection is an anti-theft feature for business-owned devices running the Posale Android
+        app. It is <b>off by default</b>. Turning it on requires someone with physical access to the device
+        to accept an on-screen explanation and grant Android&rsquo;s location permission.
+      </p>
+      <ul>
+        <li>
+          <b>What is collected</b> &mdash; the device&rsquo;s latitude and longitude, the accuracy of that
+          reading, battery level and charging state.
+        </li>
+        <li>
+          <b>When</b> &mdash; continuously only while a business admin has marked the device as lost from
+          the Posale dashboard. Outside lost mode, Posale records no location at all.
+        </li>
+        <li>
+          <b>Who can see it</b> &mdash; only admins of the business that registered the device. It is never
+          shown to other businesses, never sold, and never used for advertising or profiling.
+        </li>
+        <li>
+          <b>How long</b> &mdash; location history is deleted automatically after 30 days. The last known
+          position is kept on the device record until the device is removed.
+        </li>
+        <li>
+          <b>Turning it off</b> &mdash; Device Protection can be switched off at any time in Settings on the
+          device, which stops all collection. Android&rsquo;s location permission can also be revoked in the
+          system settings at any time.
+        </li>
+      </ul>
+      <p>
+        Because these are business-owned devices used by staff, the business owner is responsible for
+        telling their staff that Device Protection is enabled.
+      </p>
+
+      <h2>5. How long we keep it</h2>
       <p>
         Your business records are kept for as long as your account exists — including on the free tier
         after a plan ends. If you ask us to delete your account, we delete your business data within a
         reasonable period, except where we must keep records to meet legal or accounting obligations.
       </p>
 
-      <h2>5. Your rights</h2>
+      <h2>6. Your rights</h2>
       <p>
         Under the NDPA you may ask us to access, correct, export or delete the personal data we hold
         about you, or object to how it is processed. Business owners can edit or remove staff accounts
         and business records directly in the app at any time.
       </p>
 
-      <h2>6. Third-party services</h2>
+      <h2>7. Third-party services</h2>
       <p>
         We use a small number of processors to run Posale NG: cloud hosting for data storage and sync, and
         Paystack for payments. Each processes data only on our instructions. The website loads fonts
         from Google Fonts.
       </p>
 
-      <h2>7. Children</h2>
+      <h2>8. Children</h2>
       <p>Posale is a business tool and is not directed at children under 18.</p>
 
-      <h2>8. Changes to this policy</h2>
+      <h2>9. Changes to this policy</h2>
       <p>
         If we make material changes we will update this page and notify account owners in the app. The
         date at the top shows when this policy was last revised.
       </p>
 
-      <h2>9. Contact us</h2>
+      <h2>10. Contact us</h2>
       <p>
         For any privacy question or request, chat with us on WhatsApp at +234 803 989 8809 or email{' '}
         <a href="mailto:support@posale.ng">support@posale.ng</a>.

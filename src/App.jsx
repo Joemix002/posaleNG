@@ -11,8 +11,14 @@ import Footer from './components/Footer.jsx';
 import Privacy from './pages/Privacy.jsx';
 import Terms from './pages/Terms.jsx';
 
-// Hash routes ("#/privacy") coexist with section anchors ("#pricing").
+// Legal pages answer on real paths (/privacy, /terms) as well as the original
+// hash routes. Google Play wants a privacy-policy URL that loads directly;
+// a "#/privacy" fragment is resolved client-side and is not reliably followed
+// by reviewers' tooling. The hash forms are kept so existing links still work.
 const getRoute = () => {
+  const path = window.location.pathname.replace(/\/+$/, '');
+  if (path === '/privacy') return 'privacy';
+  if (path === '/terms') return 'terms';
   const hash = window.location.hash;
   if (hash.startsWith('#/privacy')) return 'privacy';
   if (hash.startsWith('#/terms')) return 'terms';
