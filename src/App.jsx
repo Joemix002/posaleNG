@@ -10,6 +10,7 @@ import Faq from './components/Faq.jsx';
 import Footer from './components/Footer.jsx';
 import Privacy from './pages/Privacy.jsx';
 import Terms from './pages/Terms.jsx';
+import DeleteAccount from './pages/DeleteAccount.jsx';
 
 // Legal pages answer on real paths (/privacy, /terms) as well as the original
 // hash routes. Google Play wants a privacy-policy URL that loads directly;
@@ -19,9 +20,11 @@ const getRoute = () => {
   const path = window.location.pathname.replace(/\/+$/, '');
   if (path === '/privacy') return 'privacy';
   if (path === '/terms') return 'terms';
+  if (path === '/delete-account') return 'delete-account';
   const hash = window.location.hash;
   if (hash.startsWith('#/privacy')) return 'privacy';
   if (hash.startsWith('#/terms')) return 'terms';
+  if (hash.startsWith('#/delete-account')) return 'delete-account';
   return 'home';
 };
 
@@ -53,6 +56,8 @@ export default function App() {
           <Privacy />
         ) : route === 'terms' ? (
           <Terms />
+        ) : route === 'delete-account' ? (
+          <DeleteAccount />
         ) : (
           <>
             <Hero />

@@ -101,15 +101,27 @@ export default function Privacy() {
       <h2>5. How long we keep it</h2>
       <p>
         Your business records are kept for as long as your account exists — including on the free tier
-        after a plan ends. If you ask us to delete your account, we delete your business data within a
-        reasonable period, except where we must keep records to meet legal or accounting obligations.
+        after a plan ends.
+      </p>
+      <p>
+        You can delete your account yourself, at any time, from <b>Settings</b> in the Android app or
+        the web app. Doing so signs your whole business out immediately and blocks any further
+        sign-in. Your records are then held for <b>30 days</b> so the owner can restore the account if
+        it was a mistake, and are permanently erased after that. Full details are on the{' '}
+        <a href="/delete-account">account deletion page</a>.
+      </p>
+      <p>
+        Payment records held by Paystack, and encrypted backups that expire on their own rolling
+        schedule, are the exceptions — we keep those only as long as legal and accounting obligations
+        require.
       </p>
 
       <h2>6. Your rights</h2>
       <p>
         Under the NDPA you may ask us to access, correct, export or delete the personal data we hold
         about you, or object to how it is processed. Business owners can edit or remove staff accounts
-        and business records directly in the app at any time.
+        and business records directly in the app at any time, and can{' '}
+        <a href="/delete-account">delete the entire account</a> without contacting us.
       </p>
 
       <h2>7. Third-party services</h2>

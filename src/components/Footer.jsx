@@ -35,6 +35,7 @@ export default function Footer() {
             <a href="#faq">FAQ</a>
             <a href="/privacy">Privacy Policy</a>
             <a href="/terms">Terms &amp; Conditions</a>
+            <a href="/delete-account">Delete your account</a>
             <a href={APP_URL}>Login</a>
           </nav>
         </div>
